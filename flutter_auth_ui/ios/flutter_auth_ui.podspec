@@ -21,7 +21,8 @@ A new Flutter plugin.
   s.dependency 'FirebaseUI/Auth', '~> 12.0'
   s.dependency 'FirebaseUI/Anonymous', '~> 12.0'
   s.dependency 'FirebaseUI/Email', '~> 12.0'
-  s.dependency 'FirebaseUI/Facebook', '~> 12.0'
+  # We don't need Facebook yet, and it's causing problems.
+  # s.dependency 'FirebaseUI/Facebook', '~> 12.0'
   s.dependency 'FirebaseUI/Google', '~> 12.0'
   s.dependency 'FirebaseUI/OAuth', '~> 12.0'
   s.dependency 'FirebaseUI/Phone', '~> 12.0'
