@@ -1,7 +1,7 @@
 import FirebaseAnonymousAuthUI
 import FirebaseAuthUI
 import FirebaseEmailAuthUI
-import FirebaseFacebookAuthUI
+// import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
 import FirebasePhoneAuthUI
@@ -172,8 +172,8 @@ public class SwiftFlutterAuthUiPlugin: NSObject, FlutterPlugin, FUIAuthDelegate 
                 providers.append(FUIOAuth.yahooAuthProvider())
             case "Google" :
                 providers.append(FUIGoogleAuth.init(authUI: authUI))
-            case "Facebook" :
-                providers.append(FUIFacebookAuth.init(authUI: authUI))
+            // case "Facebook" :
+            //     providers.append(FUIFacebookAuth.init(authUI: authUI))
             case "Twitter" :
                 providers.append(FUIOAuth.twitterAuthProvider())
             default :
